@@ -1,0 +1,38 @@
+[
+  {
+    "idcurso": 1,
+    "nombre": "Programacion",
+    "modalidad": "Presencial",
+    "valor": 120000,
+    "descripcion": "",
+    "intensidad": 20,
+    "estado": "Disponible"
+  },
+  {
+    "idcurso": 2,
+    "nombre": "Ingles",
+    "modalidad": "Virtual",
+    "valor": 100000,
+    "descripcion": "",
+    "intensidad": 10,
+    "estado": "Cerrado"
+  },
+  {
+    "idcurso": 1,
+    "nombre": "Node Js",
+    "modalidad": "Virtual",
+    "valor": 130000,
+    "descripcion": "",
+    "intensidad": 50,
+    "estado": "Disponible"
+  },
+  {
+    "idcurso": "12",
+    "nombre": "filosofia",
+    "modalidad": "Virtual",
+    "valor": "12000",
+    "descripcion": "",
+    "intensidad": "11",
+    "estado": "Disponible"
+  }
+]

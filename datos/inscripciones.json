@@ -1,0 +1,16 @@
+[
+  {
+    "cedula": "1",
+    "email": "juan@hotmail.com",
+    "nombre": "Juan",
+    "telefono": "1234",
+    "curso": 1
+  },
+  {
+    "cedula": "972",
+    "email": "jorgeeliece@hotmail.com",
+    "nombre": "jorge",
+    "telefono": "1234",
+    "curso": 12
+  }
+]

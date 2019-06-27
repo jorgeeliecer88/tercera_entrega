@@ -1,0 +1,28 @@
+{
+  "name": "segunda_entrega",
+  "version": "1.0.1",
+  "description": "Segunda entrega curso TDEA",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "segunda_entrega"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "Jorge Eliecer Perez Niño",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
+    "hbs": "^4.0.4",
+    "jquery": "^3.4.1",
+    "mongoose": "^5.6.1",
+    "popper.js": "^1.15.0"
+  }
+}

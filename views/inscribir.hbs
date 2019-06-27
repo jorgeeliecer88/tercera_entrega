@@ -1,0 +1,37 @@
+{{>header}}
+<div class="container">
+    <div class="text-center">
+        <h1><strong>Formulario para inscribirse en un curso</strong></h1>
+        <p>Utilice este formulario para inscribirse en un cuso</p>
+    </div>
+    <form action="inscribir" method="POST">
+        <div class="form-group">
+            <label for="cedula">Documento de identidad:</label>
+            <input type="text" class="form-control" id="cedula" name="cedula" placeholder="Cedula" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="email" required>
+        </div>
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="telefono">Telefono:</label>
+            <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="telefono" required>
+        </div>
+        <div class="form-group">
+            <label for="curso">Cursos disponibles:</label>
+            <select class="form-control" id="curso" name="curso" required>
+                {{{obtenerCursoSelect}}}
+            </select>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-success btn-sx">Enviar</button>
+        </div>
+        <br>
+
+    </form>
+</div>
+{{>footer}}

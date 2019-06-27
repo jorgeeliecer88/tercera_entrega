@@ -1,0 +1,16 @@
+{{>header}}
+<div class="text-center">
+    <h1> Ver Cursos como administrador</h1>
+</div><br>
+<div class="container text-center">
+    {{{getCursos}}}
+</div>
+
+<div class="container">
+    <h2>Ver cursos como interesado</h2>
+    <p>Solo se muestran aquellos que esten en estado disponible:</p>
+    <div class="accordion" id="accordionExample">
+        {{{obtenerCursosCallapsed}}}
+    </div>
+</div>
+{{>footer}}

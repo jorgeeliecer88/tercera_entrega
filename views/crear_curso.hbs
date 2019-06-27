@@ -1,0 +1,42 @@
+{{>header}}
+<div class="container">
+    <div class="text-center">
+        <h1><strong>Formulario para la creación de cursos</strong></h1>
+        <p>Utilice este formulario para la creacion de un curso</p>
+    </div>
+    <form action="crear_curso" method="POST">
+        <div class="form-group">
+            <label for="idcurso">Id curso</label>
+            <input type="text" class="form-control" id="idcurso" name="idcurso" placeholder="Id curso" required>
+        </div>
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
+        </div>
+        <div class="form-group">
+            <label for="modalidad">Modalidad</label>
+            <select class="form-control" id="modalidad" name="modalidad">
+                <option value="1">Presencial</option>
+                <option value="2">Virtual</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="valor">Valor:</label>
+            <input type="text" class="form-control" id="valor" name="valor" placeholder="Valor" required>
+        </div>
+        <div class="form-group">
+            <label for="descripcion">Descripcion</label>
+            <textarea class="form-control" id="descripcion" name="descripcion" rows="3" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="intensidad">Intensidad horaria:</label>
+            <input type="text" class="form-control" id="intensidad" name="intensidad" placeholder="Intensidad">
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-success btn-sx">Enviar</button>
+        </div>
+        <br>
+
+    </form>
+</div>
+{{>footer}}
