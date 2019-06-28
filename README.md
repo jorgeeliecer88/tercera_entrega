@@ -1,4 +1,4 @@
-# segunda_entreta
-Segunda Entrega TDEA
+# tercera_entreta
+Tercera Entrega TDEA
 
-para ver la funcionalidad en heroku  dirijase a : https://segundaentregatdea.herokuapp.com/ver_inscritos
+para ver la funcionalidad en heroku  dirijase a :https://tercera-entrega-tdea.herokuapp.com/
