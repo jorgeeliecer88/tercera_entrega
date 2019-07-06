@@ -12,7 +12,7 @@ mongoose.connect(process.env.URLDB, {useNewUrlParser: true}, (err, resultado) =>
 	if (err){
 		return console.log(error)
 	}
-	console.log(">> conectado mongo db")
+	console.log(">> Conectado mongo db 27017")
 });
 
 var hbs = require("hbs");
@@ -46,7 +46,7 @@ app.post("/crear_curso", function(req, res) {
         nombre: req.body.nombre,
         modalidad: req.body.modalidad,
         valor: req.body.valor,
-        desc: req.body.desc,
+        descripcion: req.body.descripcion,
         intensidad: req.body.intensidad,
         estado: "Disponible"
       });

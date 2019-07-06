@@ -1,7 +1,7 @@
 {
-  "name": "segunda_entrega",
+  "name": "tercera_entrega",
   "version": "1.0.1",
-  "description": "Segunda entrega curso TDEA",
+  "description": "Tercera entrega curso TDEA",
   "main": "index.js",
   "scripts": {
     "test": "test",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "segunda_entrega"
+    "url": "tercera_entrega"
   },
   "keywords": [
     "nodejs"

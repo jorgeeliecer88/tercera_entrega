@@ -4,6 +4,7 @@ const Cursos = require("../modelos/cursos");
 let inscripciones = [];
 let cursos = [];
 var messageError = "";
+let cursosTempDB = [];
 
 let obtenerCursosSelect = () => {
   leerCursos();
@@ -139,7 +140,19 @@ let obtenerCursos = () => {
   </thead>\
   <tbody></tbody>";
 
-  cursos.forEach(curso => {
+  console.log( " Nuevo Find : " );
+
+  Cursos.find({},(err,respuesta)=>{
+		if (err){
+      estadoProceso = false;
+      return console.log(err)
+    }
+    cursosTempDB = respuesta;
+      console.log( " Find : " + cursosTempDB);
+    
+  });
+
+  cursosTempDB.forEach(curso => {
     texto +=
       "<tr><th scope='row'>" +
       curso.idcurso +
@@ -164,6 +177,8 @@ let obtenerCursos = () => {
       "</th>" +
       "</tr>";
   });
+
+  
   texto += "  </tbody></table >";
   return texto;
 };
